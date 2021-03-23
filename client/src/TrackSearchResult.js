@@ -8,7 +8,7 @@ export default function TrackSearchResult({ track, chooseTrack }) {
   return (
     <div
       className="d-flex m-2 align-items-center"
-      style={{ cursor: "pointer" }}
+      style={{ cursor: "pointer", color: "white" }}
       onClick={handlePlay}
     >
       <img
