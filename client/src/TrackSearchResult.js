@@ -7,7 +7,7 @@ export default function TrackSearchResult({ track, chooseTrack }) {
 
   return (
     <div
-      className="d-flec m-2 align-items-center"
+      className="d-flex m-2 align-items-center"
       style={{ cursor: "pointer" }}
       onClick={handlePlay}
     >
