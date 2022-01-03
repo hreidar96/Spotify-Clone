@@ -27,7 +27,7 @@ export default function Dashboard({ code }) {
     if (!playingTrack) return;
 
     axios
-      .get("http://localhost:3001/lyrics", {
+      .get("https://spotify-clone-server-1.herokuapp.com//lyrics", {
         params: {
           track: playingTrack.title,
           artist: playingTrack.artist,
@@ -75,6 +75,7 @@ export default function Dashboard({ code }) {
 
   return (
     <Container
+      fluid
       className="d-flex flex-column py-2"
       style={{
         height: "100vh",
